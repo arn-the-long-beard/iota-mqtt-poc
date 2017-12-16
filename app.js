@@ -20,7 +20,7 @@ nodeCleanup(function (exitCode, signal) {
 // ENVIRONMENT VARS
 //
 // MQTT vars
-var MQTT_FULL_URL = process.env.MQTT_FULL_URL || 'mqtts://localhost:1883';
+var MQTT_FULL_URL = process.env.MQTT_FULL_URL || 'mqtt://localhost:1883';
 var MQTT_CLIENT_PREFIX = process.env.MQTT_CLIENT_PREFIX || 'iota_poc_';
 var MQTT_TOPIC = process.env.MQTT_TOPIC || '/devices/+';
 // IOTA vars
